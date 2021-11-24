@@ -1,0 +1,10 @@
+<%- include('partials/header.ejs') %>
+
+<main>
+    <form action="/admin/servicos/novo" method="POST" enctype="multipart/form-data">
+        <input type="file" name="foto-do-servico" id="">
+        <button type="submit">Upload</button>
+    </form>
+</main>
+
+<%- include('partials/footer.ejs') %>
